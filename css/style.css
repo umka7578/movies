@@ -1,0 +1,149 @@
+.picture {
+  width: 400px;
+  height: 600px;
+  margin-top: 20px;
+  left: 740px;
+  position: absolute;
+}
+.picture:hover .block {
+  transform: scale(1, 1);
+  opacity: 1;
+  transition: 0.3s ease all;
+}
+.picture .block {
+  display: inline-block;
+  position: relative;
+  width: 270px;
+  height: 500px;
+  background-color: white;
+  border-radius: 3px;
+  z-index: 1;
+  opacity: 0;
+  transform: scale(0.5);
+  margin-top: 60px;
+  margin-left: 20px;
+}
+.picture .block h3 {
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  color: #0bd84f;
+  font-size: 22px;
+}
+.picture .block h4 {
+  position: absolute;
+  top: 350px;
+  left: 63px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.picture .block h5 {
+  position: absolute;
+  left: 107px;
+  top: 425px;
+  color: grey;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.picture .block button {
+  position: absolute;
+  top: 453px;
+  width: 270px;
+  height: 47px;
+  border: 1px solid #444343;
+  border-radius: 2px;
+  color: white;
+  background-color: #333030;
+}
+.picture .block button:hover {
+  background-color: #444242;
+  transition: 0.3s ease all;
+  cursor: pointer;
+}
+.picture .runner {
+  position: absolute;
+  width: 230px;
+  height: 350px;
+  top: 40px;
+  left: 40px;
+  z-index: 2;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #003cff;
+}
+
+.img:hover .under {
+  transform: scale(1, 1);
+  opacity: 1;
+  transition: 0.3s ease all;
+}
+.img .under {
+  display: inline-block;
+  position: absolute;
+  width: 270px;
+  height: 500px;
+  background-color: white;
+  border-radius: 3px;
+  opacity: 0;
+  z-index: -1;
+  transform: scale(0.5);
+  margin-top: 80px;
+  margin-left: 400px;
+}
+.img .under h4 {
+  position: absolute;
+  top: 350px;
+  left: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.img .under .world {
+  position: absolute;
+  top: 370px;
+  left: 35px;
+  color: grey;
+}
+.img .under h3 {
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  color: #4ece74;
+  font-size: 22px;
+}
+.img .under h5 {
+  position: absolute;
+  left: 105px;
+  top: 425px;
+  color: grey;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.img .under button {
+  position: absolute;
+  top: 453px;
+  width: 270px;
+  height: 47px;
+  border: 1px solid #444343;
+  border-radius: 2px;
+  color: white;
+  background-color: #333030;
+}
+.img .under button:hover {
+  background-color: #444242;
+  transition: 0.3s ease all;
+  cursor: pointer;
+}
+.img .justice {
+  position: absolute;
+  width: 230px;
+  height: 350px;
+  top: 60px;
+  left: 420px;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=style.css.map */

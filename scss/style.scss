@@ -1,0 +1,88 @@
+@use "second/block";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(0, 60, 255);
+}
+.img{
+    &:hover{
+        .under{
+            transform: scale(1,1);
+            opacity: 1;
+            transition: .3s ease all;
+        }
+    }
+    .under{
+        display: inline-block;
+        position: absolute;
+        width: 270px;
+        height: 500px;
+        background-color: white;
+        border-radius: 3px;
+        opacity: 0;
+        z-index: -1;
+        transform: scale(.5);
+        margin: {
+            top: 80px;
+            left: 400px;
+        }
+        
+            h4{
+                position:absolute;
+                top: 350px;
+                left: 60px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .world{
+                position: absolute;
+                top: 370px;
+                left: 35px;
+                color: grey;
+            }
+            h3{
+                position: absolute;
+                top: 400px;
+                left: 100px;
+                color: rgb(78, 206, 116);
+                font-size: 22px;
+            }
+            h5{
+                position: absolute;
+                left: 105px;
+                top: 425px;
+                color: grey;
+                font-size: 16px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            button{
+                position: absolute;
+                top: 453px;
+                width: 270px;
+                height: 47px;
+                border: 1px solid rgb(68, 67, 67);
+                border-radius: 2px;
+                color: white;
+                background-color: rgb(51, 48, 48);
+                    &:hover{
+                        background-color: rgb(68, 66, 66);
+                        transition: .3s ease all;
+                        cursor: pointer;
+                    }
+        }
+    }
+    .justice{
+        position: absolute;
+        width: 230px;
+        height: 350px;
+        top: 60px;
+        left: 420px;
+        z-index: 1;
+     } 
+     
+        
+
+    
+}
